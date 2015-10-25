@@ -1,12 +1,14 @@
 ## GitHub Stars Chrome Extension
 
+[![Code Climate](https://codeclimate.com/github/oooooooo/github-stars-chrome-extension/badges/gpa.svg)](https://codeclimate.com/github/oooooooo/github-stars-chrome-extension)
+
 GitHub Stars on every sites, every pages.
 
 ![screenshot](images/screenshot.png?raw=true "Ex. Google results")
 
 ## Install
 
-1. Download the code, e.g. `git clone git://github.com/oooooooo/github-stars-chrome-extension.git
+1. Download the code, e.g. `git clone https://github.com/oooooooo/github-stars-chrome-extension.git`
 2. Navigate chrome to `chrome://extensions`
 3. Check the `Developer mode` toggle
 4. Click on `Load Unpacked Extension...`
