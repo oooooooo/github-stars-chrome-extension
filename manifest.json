@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "GitHub Stars",
+  "description": "GitHub Stars on every sites, every pages.",
+  "version": "0.0.1",
+
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options/index.html",
+    "chrome_style": true
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "js/github-stars.js",
+        "js/main.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ]
+}

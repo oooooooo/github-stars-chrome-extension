@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/superhero/bootstrap.min.css" />
+    <script src="../js/options.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Setup</h1>
+
+      <div id="success-messages" class="alert alert-dismissible alert-success" style="display:none">
+        <strong>Success!!</strong>
+      </div>
+
+      1. <a href="https://github.com/settings/applications/new">Register a new OAuth applocation</a>, get a Client ID &amp; Client Secret.
+
+      <div class="well">
+        Authorization callback URL:<br />
+        https://olfjeopjhdkamihaccelgbnobiececjo.chromiumapp.org/provider_cb
+        <div id="callback-url"></div>
+      </div>
+
+      2.
+
+      <form action="#">
+        <div class="form-group">
+          <label for="client-id">Client ID</label>
+          <input type="text" class="form-control" id="client-id" placeholder="Client ID">
+        </div>
+        <div class="form-group">
+          <label for="client-secret">Client Secret</label>
+          <input type="text" class="form-control" id="client-secret" placeholder="Client Secret">
+        </div>
+      </form>
+
+      <button id="signin" style="display:none" class="btn btn-default">GitHub OAuth</button>
+      <button id="revoke" style="display:none" class="btn btn-warning">Revoke Toekn</button>
+    </div>
+
+    <div style="height: 200px;"></div>
+  </body>
+</html>
