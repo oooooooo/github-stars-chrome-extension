@@ -278,6 +278,9 @@ var gh = (function() {
       if (localStorage['client_id'])     document.querySelector('#client-id').value     = localStorage['client_id'];
       if (localStorage['client_secret']) document.querySelector('#client-secret').value = localStorage['client_secret'];
 
+      var callback_url = document.querySelector('#callback-url');
+      callback_url.innerText = chrome.identity.getRedirectURL('provider_cb');
+
       signin_button = document.querySelector('#signin');
       signin_button.onclick = interactiveSignIn;
 
