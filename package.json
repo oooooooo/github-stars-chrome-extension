@@ -5,6 +5,7 @@
     "url": "https://github.com/oooooooo/github-stars-chrome-extension.git"
   },
   "devDependencies": {
+    "del": "^2.0.2",
     "espower-babel": "^3.3.0",
     "gulp-espower": "^1.0.1",
     "gulp-mocha": "^2.1.3",
