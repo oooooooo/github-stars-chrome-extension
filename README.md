@@ -1,6 +1,7 @@
 ## GitHub Stars Chrome Extension
 
 [![Code Climate](https://codeclimate.com/github/oooooooo/github-stars-chrome-extension/badges/gpa.svg)](https://codeclimate.com/github/oooooooo/github-stars-chrome-extension)
+[![Travis CI](https://travis-ci.org/oooooooo/github-stars-chrome-extension.svg?branch=master)](https://codeclimate.com/github/oooooooo/github-stars-chrome-extension)
 
 GitHub Stars on every sites, every pages.
 
