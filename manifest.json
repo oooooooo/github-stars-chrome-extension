@@ -24,7 +24,8 @@
     {
       "js": [
         "js/github-stars.js",
-        "js/main.js"
+        "js/main.js", 
+        "js/run.js"
       ],
       "matches": [
         "http://*/*",

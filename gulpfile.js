@@ -7,7 +7,7 @@ var gulp    = require('gulp'),
     mocha   = require('gulp-mocha');
 
 gulp.task('test', function() {
-  del('dest');
+  del('./dest/*');
   gulp.src('./test/*.js')
     .pipe(plumber())
     .pipe(espower())

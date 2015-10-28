@@ -1,4 +1,4 @@
-var main = (function(exports) {
+// var main = (function(exports) {
   'use strict';
 
   var ACCESS_TOKEN = null;
@@ -94,7 +94,8 @@ var main = (function(exports) {
     return true;
   }
 
-  exports.run = function() {
+  // exports.run = function() {
+  function run() {
     clear_cache();
 
     chrome.storage.local.get('access_token', function (result) {
@@ -117,7 +118,13 @@ var main = (function(exports) {
     });
   }
 
-  return exports;
-})({});
+//   return exports;
+// })({});
+// main.run();
 
-main.run();
+var exports = exports || {};
+exports.expire                = expire;
+exports.github_repository_url = github_repository_url;
+exports.is_cached_expired     = is_cached_expired;
+exports.is_github_repository  = is_github_repository;
+exports.is_storage_full       = is_storage_full;
